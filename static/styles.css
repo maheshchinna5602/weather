@@ -1,0 +1,46 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.weather-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.city {
+    font-size: 28px;
+    margin: 0;
+    color: #333;
+}
+
+.weather-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.temperature {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.description {
+    font-size: 18px;
+    color: #555;
+}
